@@ -9,3 +9,12 @@ body{
 h1, h2, h3{
 	font-family: 'Iceland';
 }
+
+h1{
+	margin-bottom:60px;
+}
+
+p::first-letter{
+	font-family: 'Iceland';
+	font-size:150%;
+}
