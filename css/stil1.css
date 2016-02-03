@@ -23,3 +23,20 @@ p::first-letter{
 	font-family: 'Iceland';
 	font-size:150%;
 }
+
+table{
+	border-collapse: collapse;
+	margin: 20px;
+	
+}
+
+th{
+	font-family: 'Iceland';
+	color:white;
+	background-color:DarkSlateGray;
+	font-size:120%;
+}
+
+tr:nth-child(even){
+	background-color:gray;
+}
