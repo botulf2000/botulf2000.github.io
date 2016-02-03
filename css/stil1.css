@@ -14,7 +14,7 @@ h1{
 	margin-bottom:60px;
 	min-height: 120px;
 	background-image: url("../images/xwing_liten.png");
-	
+    max-width:80%;
 	background-repeat: no-repeat;
 	background-position: right top;
 }
