@@ -1,5 +1,5 @@
 body{
-	
+
 	min-width:240px;
 	background-image: url("../images/interceptor.png");
 	background-repeat: no-repeat;
@@ -7,7 +7,7 @@ body{
 	margin-left:10%;
 	margin-right:10%;
 	padding-bottom:140px;
-	
+
 }
 
 h1, h2, h3{
@@ -18,7 +18,7 @@ h1{
 	margin-bottom:60px;
 	min-height: 150px;
 	background-image: url("../images/xwing_liten.png");
-    max-width:60%;
+  max-width:60%;
 	background-repeat: no-repeat;
 	background-position: right top;
 }
@@ -31,7 +31,7 @@ p::first-letter{
 table{
 	border-collapse: collapse;
 	margin: 20px;
-	
+
 }
 
 th{
