@@ -4,6 +4,8 @@ body{
 	background-image: url("../images/interceptor.png");
 	background-repeat: no-repeat;
 	background-position: left bottom;
+	background-color: white;
+	color: darkslategrey;
 	margin-left:10%;
 	margin-right:10%;
 	padding-bottom:140px;
