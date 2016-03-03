@@ -4,7 +4,7 @@ body{
 	background-image: url("../images/interceptor.png");
 	background-repeat: no-repeat;
 	background-position: left bottom;
-	background-color: white;
+	background-color: ghostwhite;
 	color: darkslategrey;
 	margin-left:10%;
 	margin-right:10%;
@@ -25,9 +25,18 @@ h1{
 	background-position: right top;
 }
 
+h1::first-letter,h2::first-letter{
+	font-size:120%;
+	color: darkblue;
+	border-color: darkslategrey;
+	border-left:3px solid;
+	padding-left: 6px;
+}
+
 p::first-letter{
 	font-family: 'Iceland';
 	font-size:150%;
+	color: darkblue;
 }
 
 table{
@@ -44,5 +53,5 @@ th{
 }
 
 tr:nth-child(even){
-	background-color:gray;
+	background-color:lightgray;
 }
