@@ -4,9 +4,10 @@
 
 ### Allmänt ###
 
-* 100 poängs lista
-* Riktiga skeppsmodeller, men proxy ok på uppgraderingskort (utskrift från squad-builder eller så)
-* Ok med ny lista till varje match
+* 100 poängs listor.
+* I matcherna ställs en timer på 60 minuter när skeppen är uppställda. Efter de 60 minuterna är det en sista runda.
+* Riktiga skeppsmodeller, men proxy ok på uppgraderingskort (utskrift från squad-builder eller så).
+* Ok med ny lista till varje match.
 * Två faser:
     * Gruppspel
     * Avslutande finalspel
