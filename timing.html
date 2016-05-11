@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<Title>X-Wing TMG Timing Windows</Title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+
+<!--- I början av allt, göm undan det som inte ska synas /---->
+
+$(document).ready(function(){
+  $(".planInfo").hide();
+  $(".actInfo").hide();
+  $(".combatInfo").hide();
+  $(".endInfo").hide();
+<!--- När man klickar på "knapp_ett", göm och visa det som ska fram resp bort  /---->
+
+  $(".planningPhase").click(function(){
+    $(".planInfo").show();
+    $(".actInfo").hide();
+    $("combatInfo").hide();
+    $("endInfo").hide();
+  });
+
+  $(".activationPhase").click(function(){
+    $(".planInfo").hide();
+    $(".actInfo").show();
+    $(".combatInfo").hide();
+    $(".endInfo").hide();
+  });
+
+  $(".combatPhase").click(function(){
+    $(".planInfo").hide();
+    $(".actInfo").hide();
+    $(".combatInfo").show();
+    $(".endInfo").hide();
+  });
+
+  $(".endPhase").click(function(){
+    $(".planInfo").hide();
+    $(".actInfo").hide();
+    $(".combatInfo").hide();
+    $(".endInfo").show();
+  });
+
+});
+</script>
+</head>
+<body>
+
+<h2>X-Wing TMG Timing Windows</h2>
+
+<!--- Använd "class" för att kunna styra de tsom ska synas/gömmas /---->
+<h3 class="planningPhase">Planning Phase</h3>
+<p class="planInfo">
+  Infos about planning phase.
+<p>
+<h3 class="activationPhase">Activation Phase</h3>
+<p class="actInfo">
+  Infos about planning phase.
+<p>
+<h3 class="combatPhase">Combat Phase</h3>
+<p class="combatInfo">
+  Infos about the Combat Phase.
+</p>
+<h3 class="endPhase">End Phase</h3>
+<p class="endInfo">
+ Infos about the End Phase.
+</p>
+</body>
+</html>
